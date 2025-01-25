@@ -1,0 +1,97 @@
+*{
+    text-rendering: optimizeLegibility;
+    font-family: inherit;
+     
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        width: 36%;
+       
+    }
+    .lobtn {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        padding: 10px 15px ;
+        margin-right: 5px;
+    }
+    .subdiv-1,.subdiv-2,.subdiv-3,.subdiv-4{
+        display: flex;
+        align-items: center;
+        justify-content:center; 
+       
+    }
+    .subdiv-1 ul,.subdiv-2 ul,.subdiv-3 ul,.subdiv-4 ul{
+        list-style: none;
+    
+    }
+    .main-div{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        margin-right: 100px; margin-bottom: 50px;
+        margin-left: 100px;
+        
+        
+    
+    }
+    .t1{
+        margin-left: 100px; margin-top: 150px;
+        font-size: 75px; font-family: Arial, Helvetica, sans-serif; width: 1200px;
+    }
+    .subdiv-1 ul li h4 ,.subdiv-2 ul li h4,.subdiv-3 ul li h4,.subdiv-4 ul li h4{
+        color: red;
+    }
+    .seebtn{
+        font: bold;
+        font-size: large;
+        background-color:rgb(235, 235, 235);
+        color:black;
+        border-radius: 10px;
+        border-color:#ffffff; border-bottom: #ffffff;border-right: #ffffff;
+        margin-left:600px; margin-top: 50px; margin-bottom: 50px;
+        padding: 20px;
+    }
+    .th3{
+        margin-left: 100px;
+        font-size: 24px; font-family: system-ui;
+    }
+    
+    
+    .part-1{
+        font-size:xx-large; font-family: Arial, Helvetica, sans-serif;
+        margin-left: 200px; margin-top: 100px; font: bolder;
+    }
+    .part-3{
+        font-family: Arial, Helvetica, sans-serif; font-size: x-large;
+        margin-left: 200px; margin-top: 50px; color: rgb(170, 170, 170);
+    }
+    .gtap{
+        background-color: black;color: white; font: bold; 
+        margin-left: 200px; padding: 15px; border-radius: 10px; width: 100px;
+    }
+    .photo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-part{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .part-2 img {
+        margin-right: 20px;
+    }
